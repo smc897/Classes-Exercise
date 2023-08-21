@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Car c = new Car("Ford", "Escape", 2003);
+            Console.WriteLine($"{c.make} {c.model} {c.year} ");
         }
     }
 }
